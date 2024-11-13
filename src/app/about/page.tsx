@@ -10,7 +10,7 @@ export default function About () {
                     Software Developer
                 </div>
                 <p className="mt-5">
-                    I'm a Brazilian born in the state of Ceará, not far from the ocean, as a child I always liked logic questions and video games.
+                    I&apos;m a Brazilian born in the state of Ceará, not far from the ocean, as a child I always liked logic questions and video games.
                 </p>
                 <p>
                     At school I played chess and participated in mathematics and astronomy Olympiads, I always studied in public schools.
@@ -19,7 +19,7 @@ export default function About () {
                     In high school, I went to a full-time school where I took a technical course in finance, I believed that I would work in this area in the future. But I fell in love with programming.
                 </p>
                 <p>
-                    In 2019 I started my bachelor's degree in computer science at the <a href="https://pt.wikipedia.org/wiki/Instituto_Federal_de_Educa%C3%A7%C3%A3o,_Ci%C3%AAncia_e_Tecnologia_do_Cear%C3%A1">federal institute of ceara</a>.
+                    In 2019 I started my bachelor&apos;s degree in computer science at the <a href="https://pt.wikipedia.org/wiki/Instituto_Federal_de_Educa%C3%A7%C3%A3o,_Ci%C3%AAncia_e_Tecnologia_do_Cear%C3%A1">federal institute of ceara</a>.
                     In the middle of college, I focused on learning to program with modern languages ​​and frameworks to get a job.
                 </p>
                 <p>

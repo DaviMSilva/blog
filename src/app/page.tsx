@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import { SocialIcon } from "react-social-icons";
 import Link from "next/link";
 
 interface Link {
@@ -48,8 +47,9 @@ export default function Home() {
           SOCIALS
        </span>
        <div className="grid gap-4 mt-4">
-          {externalLinks.map((link:Link)=> (
-            <ExternalLink 
+          {externalLinks.map((link:Link ,index)=> (
+            <ExternalLink
+              key={index} 
               url={link.url}
               description={link.description}
               Icon={link.Icon}

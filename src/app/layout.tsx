@@ -23,9 +23,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <script src="https://unpkg.com/@phosphor-icons/web"></script>
-      </head>
       <body
         className={`${poppins.className} antialiased bg-gradient-to-tr from-slate-200 via-blue-200 to-blue-300 h-screen text-gray-800 text-lg`}
       >
