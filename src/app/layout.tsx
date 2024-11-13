@@ -24,10 +24,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} antialiased bg-gradient-to-tr from-slate-200 via-blue-200 to-blue-300 h-screen text-gray-800 text-lg`}
+        className={`${poppins.className} antialiased bg-gradient-to-tr from-slate-200 via-blue-200 to-blue-300 h-screen text-gray-800 text-lg h-screen`}
       >
         <Header/>
-        <main className="max-w-lg mx-auto mt-10">
+        <main className="max-w-lg mx-auto mt-10 px-4 h-full">
           {children}
         </main>
       </body>

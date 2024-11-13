@@ -8,7 +8,7 @@ export const Header = () => {
     const isHome = path === '/'
 
     return (
-        <header className="w-screen">
+        <header className="w-screen px-4">
             <nav className="flex justify-between items-center mx-auto h-14  max-w-lg">
                 <Link href="/" className="font-semibold text-xl group">
                     DaviMSilva

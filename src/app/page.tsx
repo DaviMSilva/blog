@@ -42,7 +42,7 @@ const ExternalLink = (link: Link) => {
 
 export default function Home() {
   return (
-    <div>
+    <div className="h-full">
        <span className="font-bold text-sm px-2 py-1 ring-1 ring-blue-400 mb-3">
           SOCIALS
        </span>
@@ -55,6 +55,11 @@ export default function Home() {
               Icon={link.Icon}
             />
           ))}
+       </div>
+       <div className="mt-4 text-center lg:text-start px-3 p-2 bg-blue-400 text-white text-xl font-medium">
+          <a href="/cv-davi-silva.pdf" download>
+            Download my cv
+          </a>
        </div>
     </div>
   );
