@@ -14,6 +14,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "DaviMSilva",
   description: "My personal page",
+  icons: 'https://fav.farm/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB',
 };
 
 export default function RootLayout({
@@ -24,10 +25,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} antialiased bg-gradient-to-tr from-slate-200 via-blue-200 to-blue-300 h-screen text-gray-800 text-lg h-screen`}
+        className={`${poppins.className} antialiased bg-gradient-to-tr from-slate-200 text-gray-800 text-lg h-screen`}
       >
         <Header/>
-        <main className="max-w-lg mx-auto mt-10 px-4 h-full">
+        <main className="max-w-lg mx-auto px-4 h-full">
           {children}
         </main>
       </body>
