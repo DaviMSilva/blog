@@ -21,24 +21,6 @@ const externalLinks: Link[] = [
   
 ];
 
-const ExternalLink = (link: Link) => {
-  return (
-    <a
-      key={link.description}
-      href={link.url}
-      target="_blank"
-      className={'bg-gray-600'}
-    >
-      <span className="flex items-center gap-2">
-        {link.Icon} 
-        <div>
-          {link.description}  
-        </div>
-      </span>
-    </a>
-  );
-};
-
 export default function Home() {
 
   return (
