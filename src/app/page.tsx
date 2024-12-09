@@ -1,5 +1,5 @@
 'use client'
-import { ReactNode, useEffect, useState } from "react";
+import { ReactNode } from "react";
 import Link from "next/link";
 
 interface Link {
